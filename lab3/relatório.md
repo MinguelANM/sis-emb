@@ -20,4 +20,4 @@
 ---
 ### 4. Foto da montagem final.
 
-![]()
+![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/Resistor%20pull-down.jpg)
