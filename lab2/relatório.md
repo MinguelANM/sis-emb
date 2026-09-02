@@ -10,11 +10,12 @@
 ##  Entregas
 
 ### 1. Foto da montagem + print do monitor serial
-![]
+![]()
+
 ---
 
 ### 2. Tabela Total sizes
-<img width="1403" height="989" alt="image" src="https://github.com/user-attachments/assets/4b5a3595-cd55-40e4-ae2b-ccb166f002ad" />
+![](imagens/montagem_lab2.png)
 
 ---
 
