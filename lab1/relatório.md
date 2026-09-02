@@ -58,4 +58,4 @@ Em contrapartida, um laço `for`vazio realiza uma espera ocupada, mantendo o pro
 
 ### 5. Versão utilizada do Esp-IDF
 
-5.2
+![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/version%20do%20idf.png)
