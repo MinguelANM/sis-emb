@@ -1,0 +1,1 @@
+/home/sis-emb-2026-bancada-02/esp/esp-idf/components/mbedtls/mbedtls/library/version_features.c
