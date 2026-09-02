@@ -27,7 +27,7 @@ void app_main(void)
 
     while (1) {
         int nivel = gpio_get_level(BTN);
-        int64_t agora = esp_timer_get_time() / 1000;      // ms
+        int64_t agora = esp_timer_get_time() / 100;      // ms
         if (nivel_ant == 0 && nivel == 1 && agora >= t_ok) {  // Mudança 4: borda de subida válida
             led = !led;
             gpio_set_level(LED, led);
