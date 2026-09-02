@@ -10,12 +10,13 @@
 ##  Entregas
 
 ### 1. Foto da montagem + print do monitor serial
-![]()
+![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/monitor_serial.png)
+![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/montagem_lab2.png)
 
 ---
 
 ### 2. Tabela Total sizes
-![](imagens/montagem_lab2.png)
+![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/Total_sizes.png)
 
 ---
 
