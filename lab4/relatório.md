@@ -16,7 +16,7 @@
 
 ---
 ### 3. Prints das duas falhas da Parte C (erro do printf-na-ISR e mensagem do task_wdt) + a explicação da cadeia do WDT.
-a
+
 ---
 ### 4. Código da Parte D (a ISR modificada e a `gerador_task`) + três leituras de duração comparadas aos valores programados (150 ms / 1200 ms).
 
