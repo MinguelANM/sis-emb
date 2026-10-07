@@ -55,7 +55,7 @@ Em contrapartida, um laço `for`vazio realiza uma espera ocupada, mantendo o pro
 
 > **Exemplo Prático:** Como observado no Exemplo 1.1, a falta de gerenciamento de energia (como manter o rádio ligado sem necessidade) pode reduzir a autonomia de um dispositivo alimentado por bateria de **10 meses para apenas 1 dia**.
 
-
+---
 ### 5. Versão utilizada do Esp-IDF
 
 ![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/version%20do%20idf.png)
