@@ -18,7 +18,7 @@ nivel_ant == 1 && nivel == 0
 |--|--|--|
 | 0 | 34 | 24 |
 | 5 | 24 | 14 |
-| 20 | 28 | 18 |
+| 20 | 28 | 18 |sadasdasd
 | 50 | 22 | 12 |
 ---
 ### 3. *Diff* das três mudanças da Parte D.
