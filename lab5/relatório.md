@@ -22,9 +22,18 @@ A e B rodam normalmente por terem prioridades mais altas (5 e 3) e liberarem a C
 ---
 ### 3. Tabela da Parte C preenchida + a conta de ativações perdidas (C.12).
 
+| Configuração | Período médio (ms) | Período máx (ms) |
+| vTaskDelay + corpo 50 ms | 250,0 ms | 250,2 ms |
+| vTaskDelayUntil + corpo 50 ms | 200,0 ms | 200,1 ms |
 
 ---
 ### 4. Medições de pilha da Parte D e o tamanho de pilha que vocês recomendariam, com justificativa pelo Exemplo 5.3.
 
+A folga caiu para 9 palavras ($9 \times 4 = 36$ bytes de margem), muito próximo de causar stack overflow.
+
+Pela regra Tamanho da Pilha = Uso Máximo + 50%, o consumo total máximo com o buffer é 512 + 1500 = 2012 bytes. Aplicando a margem de 50% (2012 * 1,5 = 3018 bytes), recomendariamos dimensionar a pilha em 3072 bytes para garantir operação segura sem estouro. 
+
    ---
 ### 5. Evidência da Parte E (log mostrando A/B/C saudáveis com HOG no core 1) + 2 linhas: porque fixar cargas pesadas no core 1 é a boa prática no ESP32?
+
+O Core 0 do ESP32 já gerencia por padrão a pilha de protocolos de rede (Wi-Fi, Bluetooth) e serviços do sistema. Isolar o processamento pesado no Core 1 evita travamentos do Wi-Fi e garante determinismo para as tarefas da aplicação.
