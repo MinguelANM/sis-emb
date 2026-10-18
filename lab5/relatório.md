@@ -23,6 +23,7 @@ A e B rodam normalmente por terem prioridades mais altas (5 e 3) e liberarem a C
 ### 3. Tabela da Parte C preenchida + a conta de ativações perdidas (C.12).
 
 | Configuração | Período médio (ms) | Período máx (ms) |
+| -- | -- | -- |
 | vTaskDelay + corpo 50 ms | 250,0 ms | 250,2 ms |
 | vTaskDelayUntil + corpo 50 ms | 200,0 ms | 200,1 ms |
 
