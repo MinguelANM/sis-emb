@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define M 8                      // janela da media movel (1 = sem filtro)
+#define M 4                    // janela da media movel (1 = sem filtro)
 #define FS_HZ 20                 // taxa de amostragem
 
 void app_main(void)
