@@ -18,6 +18,16 @@ Como as tarefas A, B e C passam a maior parte do tempo em espera (vTaskDelayUnti
 
 Resposta da Parte B.9 (starvation + task_wdt)
 
+E (5000) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+
+E (5000) task_wdt:  - IDLE0 (CPU 0)
+
+E (5000) task_wdt: Tasks currently running:
+
+E (5000) task_wdt: CPU 0: HOG
+
+E (5000) task_wdt: CPU 1: IDLE1
+
 Resposta da Parte B.10 (Time Slicing):
 A e B rodam normalmente por terem prioridades mais altas (5 e 3) e liberarem a CPU com delays. C e HOG compartilham a prioridade 1; o FreeRTOS realiza alternância por tempo (time slicing) a cada tick (10 ms) entre elas. Por isso, C executa metade do tempo esperado e apresenta o dobro do período
 
