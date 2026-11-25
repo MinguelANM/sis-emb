@@ -49,7 +49,7 @@ O papel do simulador é implementar e testar a lógica do firmware antes da mont
 
 ### **Q6.**
 
-<img width="1092" height="666" alt="image" src="https://github.com/user-attachments/assets/b0f90de2-75a1-451d-afb0-b5a76a670f12" />
+<img width="690" height="641" alt="image" src="https://github.com/user-attachments/assets/74c2f235-9ce0-4e9c-b5cd-1f8fbe35f4fa" />
 
 - Por que MCUs adotam Harvard? Desempenho e determinismo: Barramentos separados permitem buscar instruções e acessar dados em paralelo, garantindo tempo de execução previsível e MCUs já usam memórias separadas para código (Flash) e variáveis (SRAM). O Harvard Modificado permite que o barramento de dados leia constantes (como strings e tabelas) gravadas diretamente na Flash, evitando desperdiçar SRAM copiando dados fixos.
 - Onde o ESP32 se encaixa? Busca código na Flash (via I-Bus) e manipula pilhas/variáveis na SRAM (via D-Bus) em paralelo. Além disso, lê constantes do programa (como os textos de printf) diretamente da Flash via cache de dados.
