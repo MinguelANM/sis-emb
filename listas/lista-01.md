@@ -129,6 +129,10 @@ $$R = \frac{5{,}0\text{ V} - 3{,}0\text{ V}}{0{,}004\text{ A}} = \frac{2{,}0\tex
 
 ### **Q14.**
 
+<img width="602" height="493" alt="image" src="https://github.com/user-attachments/assets/437fb34c-68fb-4bd3-b36b-3e21997ddac3" />
+
+- Botão solto (aberto): Lê nível lógico 1, pois não há caminho para o GND e o resistor mantém o pino no potencial de 3,3 V.
+- Botão pressionado (fechado): Lê nível lógico 0.
 - Pull-Up: Resistor ligado entre o pino e $V_{CC}$ (garante nível LÓGICO ALTO por padrão).
 - Pull-Down: Resistor ligado entre o pino e o GND (garante nível LÓGICO BAIXO por padrão).
 
