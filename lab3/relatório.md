@@ -24,7 +24,7 @@ nivel_ant == 1 && nivel == 0
 | 50 | 22 | 12 |
 ---
 ### 3. *Diff* das três mudanças da Parte D.
-
+![](https://raw.githubusercontent.com/MinguelANM/sis-emb/refs/heads/main/imagens/Diff.png)
 ---
 ### 4. Foto da montagem final.
 
